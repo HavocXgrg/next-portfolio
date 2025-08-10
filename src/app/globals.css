@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+@layer utilities {
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
+
+h1 {
+  font-family: var(--font-geist-sans);
+}
+
+html,
+body {
+  overflow-y: scroll; /* to have verticle scroll bar always visible to prevent any width issue like layout shift due to mx-auto */
+}
