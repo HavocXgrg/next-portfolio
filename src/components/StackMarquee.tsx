@@ -2,17 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import Marquee from "react-fast-marquee";
-
-const techStack = [
-  { name: "React", src: "/tech/react.svg" },
-  { name: "Next.js", src: "/tech/nextjs.svg" },
-  { name: "Tailwind", src: "/tech/tailwind.svg" },
-  { name: "HTML", src: "/tech/html.svg" },
-  { name: "Typescript", src: "/tech/typescript.svg" },
-  { name: "Nodejs", src: "/tech/nodejs.svg" },
-  { name: "Javascript ", src: "/tech/javascript.svg" },
-  { name: "Mongodb", src: "/tech/mongodb.svg" },
-];
+import { techStack } from "@/Data/data";
 
 const StackMarquee = () => {
   return (
