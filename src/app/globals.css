@@ -137,4 +137,5 @@ h1 {
 html,
 body {
   overflow-y: scroll; /* to have verticle scroll bar always visible to prevent any width issue like layout shift due to mx-auto */
+  scroll-behavior: smooth;
 }
