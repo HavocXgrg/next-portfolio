@@ -40,8 +40,11 @@ function NavBar() {
         <div className="menu ">
           <ul className="flex-center flex-wrap mt-1 ">
             <li className="">
-              <Button variant="link" className="dark:text-black text-white ">
-                <Link href="/#">Home</Link>
+              <Button
+                variant="link"
+                className="dark:text-black text-white text-md md:text-sm "
+              >
+                <Link href="/#home">Home</Link>
               </Button>
             </li>
             <li className="sm:block hidden">
@@ -89,7 +92,7 @@ function NavBar() {
             </TooltipContent>
           </Tooltip>
 
-          <Button className="bg-white text-black dark:bg-black dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700">
+          <Button className="bg-white text-black dark:bg-black dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700 text-xs px-2 md:px-4">
             <Link href="/#contact">Contact</Link>
           </Button>
         </div>
