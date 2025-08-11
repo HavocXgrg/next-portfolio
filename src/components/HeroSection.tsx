@@ -2,13 +2,16 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
 import StackMarquee from "./StackMarquee";
-import { IoDocumentTextOutline } from "react-icons/io5";
+import { ArrowDownToLine } from "lucide-react";
 import Link from "next/link";
 
 const HeroSection = () => {
   return (
     <div>
-      <section className=" flex flex-col flex-center text-center md:py-30 py-26 ">
+      <section
+        id="home"
+        className=" flex flex-col flex-center text-center md:py-30 py-26 "
+      >
         <div className="profilepic flex-center ">
           <Image
             src="/images/avatar.png"
@@ -43,7 +46,7 @@ const HeroSection = () => {
               href="/ResumeBishwa.pdf"
             >
               <div className="flex justify-center items-center gap-2">
-                <IoDocumentTextOutline className="size-6" />
+                <ArrowDownToLine className="size-6" />
                 My Resume
               </div>
             </a>
