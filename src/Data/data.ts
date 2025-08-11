@@ -1,4 +1,4 @@
-import { title } from "process";
+
 
 export const techStack = [
   { name: "React", src: "/tech/react.svg" },

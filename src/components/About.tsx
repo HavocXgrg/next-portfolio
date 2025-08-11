@@ -12,7 +12,7 @@ const About = () => {
         <ScrollReveal>
           <h1 className="font-bold  text-4xl text-primary ">About Me:</h1>
           <p className="mt-6 leading-7  dark:text-gray-400 ">
-            I'm Bishwa Gurung, I hold a Bachelor’s degree in{" "}
+            I&apos;m Bishwa Gurung, I hold a Bachelor&apos;s degree in{" "}
             <span className=" text-orange-400">
               BSc (Hons) Computer System Engineering (IT){" "}
             </span>
