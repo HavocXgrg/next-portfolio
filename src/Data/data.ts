@@ -69,3 +69,28 @@ export const techStackHoverEffect = [
     src:"/tech/framer-motion.svg"
   }
 ];
+
+
+export const images = [
+  {
+    src: "/images/snook.jpg",
+    alt: 'Image 1',
+    animate: { top: '10%', left: '12%', transform: 'translate(-24%, 0%)', scale: 0.75 },
+  },
+  {
+    src: "/images/ball.jpg",
+    alt: 'Image 2',
+    animate: { top: '10%', left: '60%', transform: 'translate(-12%, 0%)', scale: 0.75 },
+  },
+  {
+    src: "/images/netflix.jpg",
+    alt: 'Image 3',
+    animate: { top: '90%', left: '12%', transform: 'translate(-24%, -100%)', scale: 0.75 },
+  },
+  {
+    src: "/images/guitar.jpg",
+    alt: 'Image 4',
+    animate: { top: '90%', left: '60%', transform: 'translate(-12%, -100%)', scale: 0.75 },
+  },
+];
+
