@@ -42,7 +42,7 @@ function NavBar() {
             <li className="">
               <Button
                 variant="link"
-                className="dark:text-black text-white text-md md:text-sm "
+                className="dark:text-black text-white text-md md:text-sm md:ml-0 ml-6 "
               >
                 <Link href="/#home">Home</Link>
               </Button>
@@ -60,7 +60,7 @@ function NavBar() {
           </ul>
         </div>
 
-        <div className="flex md:gap-4 gap-2  p-2 ">
+        <div className=" hidden md:flex md:gap-4 gap-2  p-2 ">
           <Tooltip>
             <TooltipTrigger asChild>
               <Link
@@ -68,7 +68,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FiGithub className="text-white dark:text-black size-6 mt-1 flex-center hover:opacity-80 transition-all " />
+                <FiGithub className="  text-white dark:text-black size-6 mt-1 flex-center hover:opacity-80 transition-all " />
               </Link>
             </TooltipTrigger>
             <TooltipContent className="dark:bg-black dark:text-white mt-1">
@@ -84,21 +84,23 @@ function NavBar() {
                 rel="noopener noreferrer"
                 href="/ResumeBishwa.pdf"
               >
-                <IoDocumentTextOutline className="size-6 mt-1 sm:block hidden dark:text-black text-white hover:opacity-80 transition-all" />
+                <IoDocumentTextOutline className="size-6 mt-1   md:inline dark:text-black text-white hover:opacity-80 transition-all" />
               </a>
             </TooltipTrigger>
             <TooltipContent className="dark:bg-black dark:text-white mt-1 ">
               Resume
             </TooltipContent>
           </Tooltip>
+        </div>
 
+        <div className="ml-8">
           <Button className="bg-white text-black dark:bg-black dark:text-white hover:bg-gray-300 dark:hover:bg-gray-700 text-xs px-2 md:px-4">
             <Link href="/#contact">Contact</Link>
           </Button>
         </div>
 
         {/* Theme toggle button */}
-        <div className="toggleBtn ">
+        <div className="toggleBtn mr-1 ">
           <ThemeToggleBtn />
         </div>
       </nav>
