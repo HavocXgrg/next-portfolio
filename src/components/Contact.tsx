@@ -60,10 +60,10 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="text-gray-700 dark:text-slate-400 mb-12">
-          Whether it's a freelance gig, a collaboration, or a full-time
-          opportunity, or want to say hi? I'm always excited to connect with
-          people who love building meaningful things. Drop a message, and I'll
-          get back to you as soon as I can!
+          Whether it&apos;s a freelance gig, a collaboration, or a full-time
+          opportunity, or want to say hi? I&apos;m always excited to connect
+          with people who love building meaningful things. Drop a message, and
+          I&apos;ll get back to you as soon as I can!
         </p>
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">

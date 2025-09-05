@@ -4,7 +4,6 @@ import React from "react";
 import { techStackHoverEffect } from "@/Data/data";
 import { HoverEffect } from "./ui/card-hover-effect";
 import ScrollReveal from "./ScrollReveal";
-import ScrollAnimationAbout from "./ScrollAnimationAbout";
 
 const About = () => {
   return (
