@@ -40,7 +40,7 @@ const HeroSection = () => {
           </Button>
           <Button className="  bg-green-300 text-gray-700 hover:bg-green-400">
             <a
-              download
+              download="Bishwa-Gurung-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               href="/ResumeBishwa.pdf"
