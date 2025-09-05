@@ -16,15 +16,15 @@ export function ThemeToggleBtn() {
   const { setTheme } = useTheme();
 
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
           size="icon"
           className=" mr-4 bg-white text-yellow-600 dark:bg-black  dark:text-blue-500 dark:hover:bg-gray-800 cursor-pointer"
         >
-          <Sun className="rotate-0 scale-100 transition-all dark:rotate-90 dark:scale-0" />
-          <Moon className="absolute rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+          <Sun className="rotate-0 scale-100  dark:rotate-90 dark:scale-0" />
+          <Moon className="absolute rotate-90 scale-0 dark:rotate-0 dark:scale-100" />
           <span className="sr-only">Toggle theme</span>
           {/*sr- for reading only */}
         </Button>
