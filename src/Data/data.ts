@@ -83,7 +83,7 @@ export const images = [
     animate: { top: '10%', left: '60%', transform: 'translate(-12%, 0%)', scale: 0.75 },
   },
   {
-    src: "/images/netflix.jpg",
+    src: "/images/chesss.jpg",
     alt: 'Image 3',
     animate: { top: '90%', left: '12%', transform: 'translate(-24%, -100%)', scale: 0.75 },
   },
@@ -93,4 +93,35 @@ export const images = [
     animate: { top: '90%', left: '60%', transform: 'translate(-12%, -100%)', scale: 0.75 },
   },
 ];
-
+export const projects = [
+  {
+    id: 1,
+    src: "/images/thahaachar.png",
+    alt: "Thaha ko Achar Website",
+    title: "Thaha Aachar",
+    description: "This is an e-commerce site built from scratch for a Pickle selling company based inside KTM valley.",
+    techStack: ["React", "Tailwind CSS","Context API", "motion"], 
+    liveUrl: "https://thahakoaachar.vercel.app/", 
+    githubUrl: "https://github.com/HavocXgrg/Thaha_ko_Aachar", 
+  },
+  {
+    id: 2,
+    src: "/images/taskmanager.png",
+    alt: "Task Managing Web App",
+    title: "Task Manager",
+    description: "Task managing web app built for managing task. Basically maintain CRUD functionality.",
+    techStack: ["React", "Zustand", "Tailwind CSS",  "Motion"],
+    liveUrl: "https://task-manager-kappa-kohl-28.vercel.app/", 
+    githubUrl: "https://github.com/HavocXgrg/Task-Manager",
+  },
+    {
+    id: 3,
+    src: "/images/FCC.png",
+    alt: "Task Managing Web App",
+    title: "FCC JavaScript Project",
+    description: "This is a certificate given by FreeCodeCamp, a renowed online learning platform for completing the project.",
+    techStack: ["HTML", "CSS", "JS"],
+    liveUrl: "https://www.freecodecamp.org/certification/fccea3ab5df-55a1-433f-9b79-0e7a9e20572b/javascript-algorithms-and-data-structures-v8", 
+    githubUrl: "https://github.com/HavocXgrg/FreeCodeCamp-projects",
+  },
+];
