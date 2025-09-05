@@ -23,7 +23,7 @@ const ScrollAnimationAbout = () => {
     },
   };
   return (
-    <div ref={ref} className="relative h-[80vh] sm:h-screen w-full  ">
+    <div ref={ref} className="relative h-[80vh] sm:min-h-screen w-full ">
       {images.map((img, index) => (
         <motion.div
           key={index}
@@ -53,8 +53,8 @@ const ScrollAnimationAbout = () => {
         <h1 className="text-4xl  font-bold text-blue-700 flex justify-center">
           Beyond Coding !!!
         </h1>
-        <p className="text-xs  mt-2 font-bold text-slate-400 flex justify-center">
-          There is also a world behind coding and these are what i love
+        <p className="text-xs  mt-2 font-light tracking-wider text-slate-400 flex justify-center">
+          There is also a world behind coding and these are what i love:
         </p>
       </motion.div>
     </div>
