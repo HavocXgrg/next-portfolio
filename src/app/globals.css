@@ -134,8 +134,11 @@ h1 {
   font-family: var(--font-geist-sans);
 }
 
-html,
+html {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
 body {
-  overflow-y: scroll; /* to have verticle scroll bar always visible to prevent any width issue like layout shift due to mx-auto */
   scroll-behavior: smooth;
 }
