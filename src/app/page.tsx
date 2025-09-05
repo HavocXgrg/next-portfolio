@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import About from "@/components/About";
 import Project from "@/components/Project";
 import Contact from "@/components/Contact";
+import ScrollAnimationAbout from "@/components/ScrollAnimationAbout";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <About />
       <Project />
+      <ScrollAnimationAbout />
       <Contact />
     </div>
   );
