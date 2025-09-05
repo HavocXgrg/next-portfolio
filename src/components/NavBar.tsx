@@ -25,14 +25,14 @@ function NavBar() {
               alt="Company Logo Light"
               fill
               priority
-              className="dark:opacity-0 transition-opacity duration-300"
+              className="dark:opacity-0 "
             />
             <Image //logo for dark theme
               src="/logos/logo-dark.svg"
               alt="Company Logo Dark"
               fill
               priority
-              className="opacity-0 dark:opacity-100 transition-opacity duration-300"
+              className="opacity-0 dark:opacity-100 "
             />
           </Link>
         </div>
