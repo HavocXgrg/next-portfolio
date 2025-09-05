@@ -43,9 +43,6 @@ const About = () => {
                   <HoverEffect items={techStackHoverEffect} className="px-4 " />
                 </div>
               </ScrollReveal>
-
-              {/* A animated component that shows my hobbies */}
-              <ScrollAnimationAbout />
             </div>
           </ScrollReveal>
         </div>
