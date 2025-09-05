@@ -55,11 +55,11 @@ export default function Contact() {
   return (
     <div id="contact" className="w-full mx-auto p-8 rounded-lg shadow-lg">
       <h2 className="text-4xl font-bold mb-6 text-center">Contact Me</h2>
-      <div className="mb-8">
+      <div className="mb-8 mt-12 sm:mt-16">
         <h2 className="text-2xl font-semibold text-blue-400 mb-6">
           Get In Touch
         </h2>
-        <p className="text-gray-700 dark:text-slate-400">
+        <p className="text-gray-700 dark:text-slate-400 mb-12">
           Whether it's a freelance gig, a collaboration, or a full-time
           opportunity, or want to say hi? I'm always excited to connect with
           people who love building meaningful things. Drop a message, and I'll
