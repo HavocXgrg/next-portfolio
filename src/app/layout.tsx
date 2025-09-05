@@ -4,6 +4,8 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import ThemeContextProvider from "@/components/ThemeContextProvider";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const metadata: Metadata = {
   title: "Gurung Bishwa | Web Dev",
@@ -33,6 +35,18 @@ export default function RootLayout({
             <NavBar />
 
             {children}
+            <ToastContainer
+              position="top-right"
+              autoClose={3000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="dark" // Matches your form's theme
+            />
           </ThemeContextProvider>
         </main>
       </body>
