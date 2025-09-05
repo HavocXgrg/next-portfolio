@@ -93,6 +93,7 @@ export const images = [
     animate: { top: '90%', left: '60%', transform: 'translate(-12%, -100%)', scale: 0.75 },
   },
 ];
+
 export const projects = [
   {
     id: 1,
