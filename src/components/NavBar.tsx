@@ -79,10 +79,10 @@ function NavBar() {
           <Tooltip>
             <TooltipTrigger asChild>
               <a
-                download
+                download="Bishwa-Gurung-Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="/ResumeBishwa.pdf"
+                href="/Bishwa-Gurung-Resume.pdf"
               >
                 <IoDocumentTextOutline className="size-6 mt-1   md:inline dark:text-black text-white hover:opacity-80 transition-all" />
               </a>

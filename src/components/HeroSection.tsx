@@ -43,7 +43,7 @@ const HeroSection = () => {
               download="Bishwa-Gurung-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              href="/ResumeBishwa.pdf"
+              href="/Bishwa-Gurung-Resume.pdf"
             >
               <div className="flex justify-center items-center gap-2">
                 <ArrowDownToLine className="size-6" />
