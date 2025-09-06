@@ -82,7 +82,7 @@ function NavBar() {
                 download="Bishwa-Gurung-Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="/Bishwa-Gurung-Resume.pdf"
+                href="/Gurung-Bishwa-Resume.pdf"
               >
                 <IoDocumentTextOutline className="size-6 mt-1   md:inline dark:text-black text-white hover:opacity-80 transition-all" />
               </a>
