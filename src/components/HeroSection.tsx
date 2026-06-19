@@ -40,10 +40,10 @@ const HeroSection = () => {
           </Button>
           <Button className="  bg-green-300 text-gray-700 hover:bg-green-400">
             <a
-              download="Bishwa-Gurung-Resume.pdf"
+              download="Bishwa-Gurung-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              href="/Gurung-Bishwa-Resume.pdf"
+              href="/Gurung-Bishwa-CV.pdf"
             >
               <div className="flex justify-center items-center gap-2">
                 <ArrowDownToLine className="size-6" />
